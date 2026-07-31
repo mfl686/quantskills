@@ -34,6 +34,7 @@
     "skill-factor-debug": "02",
     "skill-factor-decay": "02",
     "skill-factor-evaluate": "02",
+    "skill-factor-grouped-wrapper": "02",
     "skill-factor-idea-generation": "02",
     "skill-factor-mine": "02",
     "skill-factor-optimize": "02",
