@@ -4,7 +4,7 @@
 
 [简体中文](README.md) | **English**
 
-[![repos](https://img.shields.io/badge/repos-154-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-148-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-8-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--08--09-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
+[![repos](https://img.shields.io/badge/repos-162-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-156-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-8-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--08--10-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
 
 **QUANTSKILLS** is an open community for **Quant Skills and Agents** in the AI Agent era. Initiated by [PandaAI](https://www.tqx.ai/), it helps quant developers turn trading experience, research methods, factor models, and strategy code into standardized assets that can be **searched, installed, validated, and shared**.
 
@@ -188,6 +188,14 @@ mindmap
 
 | Project | Description | Screenshot |
 |---|---|---|
+| [skill-klarman-special-situations](https://github.com/quantskills/skill-klarman-special-situations) | 基于克拉曼特殊情况投资框架的 A 股事件驱动研究 Skill，覆盖定增解禁、重组借壳、分拆上市与困境反转；强调证据核验、失败价值与风险边界。 | — |
+| [skill-buffett-moat-screener](https://github.com/quantskills/skill-buffett-moat-screener) | 面向 A 股与美股的巴菲特式研究 Skill：研究建议、持仓复核、年度记录与点时回测。 | — |
+| [skill-quant-research-experiment-registry](https://github.com/quantskills/skill-quant-research-experiment-registry) | Quantitative research experiment registry and reproducibility audit skill. | — |
+| [skill-rolling-beta-exposure](https://github.com/quantskills/skill-rolling-beta-exposure) | — | — |
+| [skill-signal-stability-audit](https://github.com/quantskills/skill-signal-stability-audit) | — | — |
+| [skill-calendar-anomaly-scanner](https://github.com/quantskills/skill-calendar-anomaly-scanner) | — | — |
+| [skill-brinson-performance-attribution](https://github.com/quantskills/skill-brinson-performance-attribution) | Brinson-Fachler / BHB 归因 + Carino 多期链接 | — |
+| [skill-walk-forward-validator](https://github.com/quantskills/skill-walk-forward-validator) | — | — |
 | [skill-quant-execution-microstructure](https://github.com/quantskills/skill-quant-execution-microstructure) | — | — |
 | [skill-daily-report](https://github.com/quantskills/skill-daily-report) | 是一个跨市场每日复盘技能，用于汇总 A 股、港股、美股、日经、韩国市场以及黄金、原油等公开行情数据，并结合板块表现、资金流向和重要新闻，生成结构化的 Markdown 市场复盘报告和次日情景分析。 | — |
 | [skill-quant-portfolio-risk](https://github.com/quantskills/skill-quant-portfolio-risk) | — | — |
@@ -251,10 +259,10 @@ Governance, scaffolding and templates (incl. the quantskills nav repo).
 |---|---|---|
 | [quantskills](https://github.com/quantskills/quantskills) | QuantSkills组织的全景导航 ——Panoramic navigator for the QuantSkills organization | — |
 | [registry](https://github.com/quantskills/registry) | Public display registry for QUANTSKILLS skill-* and agent-* assets. | — |
-| [.github](https://github.com/quantskills/.github) | — | — |
-| [skill-template](https://github.com/quantskills/skill-template) | Template repository for QUANTSKILLS skill-* projects. | — |
-| [join](https://github.com/quantskills/join) | — | — |
 | [agent-template](https://github.com/quantskills/agent-template) | Template repository for QUANTSKILLS agent-* projects. | — |
+| [skill-template](https://github.com/quantskills/skill-template) | Template repository for QUANTSKILLS skill-* projects. | — |
+| [.github](https://github.com/quantskills/.github) | — | — |
+| [join](https://github.com/quantskills/join) | — | — |
 
 ---
 ## 🐼 PandaAI Community
