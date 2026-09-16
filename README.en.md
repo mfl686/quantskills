@@ -4,7 +4,7 @@
 
 [简体中文](README.md) | **English**
 
-[![repos](https://img.shields.io/badge/repos-232-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-226-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-15-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--09--15-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
+[![repos](https://img.shields.io/badge/repos-232-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-226-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-15-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--09--16-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
 
 **QUANTSKILLS** is an open community for **Quant Skills and Agents** in the AI Agent era. Initiated by [PandaAI](https://www.tqx.ai/), it helps quant developers turn trading experience, research methods, factor models, and strategy code into standardized assets that can be **searched, installed, validated, and shared**.
 
@@ -327,11 +327,11 @@ Governance, scaffolding and templates (incl. the quantskills nav repo).
 
 | Project | Description | Screenshot |
 |---|---|---|
+| [.github](https://github.com/quantskills/.github) | — | — |
 | [registry](https://github.com/quantskills/registry) | Public display registry for QUANTSKILLS skill-* and agent-* assets. | — |
 | [quantskills](https://github.com/quantskills/quantskills) | QuantSkills组织的全景导航 ——Panoramic navigator for the QuantSkills organization | — |
 | [agent-template](https://github.com/quantskills/agent-template) | Canonical template for portable QuantSkills agent projects. | — |
 | [skill-template](https://github.com/quantskills/skill-template) | Provides a template structure and instructions for QuantSkills skill projects. | — |
-| [.github](https://github.com/quantskills/.github) | — | — |
 | [join](https://github.com/quantskills/join) | — | — |
 
 ---
