@@ -4,7 +4,7 @@
 
 **简体中文** | [English](README.en.md)
 
-[![仓库](https://img.shields.io/badge/%E4%BB%93%E5%BA%93-233-blue)](https://github.com/orgs/quantskills/repositories) [![百宝箱收录](https://img.shields.io/badge/%E7%99%BE%E5%AE%9D%E7%AE%B1%E6%94%B6%E5%BD%95-227-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-15-d62728)](#cat-09) [![更新](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--10--08-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
+[![仓库](https://img.shields.io/badge/%E4%BB%93%E5%BA%93-233-blue)](https://github.com/orgs/quantskills/repositories) [![百宝箱收录](https://img.shields.io/badge/%E7%99%BE%E5%AE%9D%E7%AE%B1%E6%94%B6%E5%BD%95-227-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-15-d62728)](#cat-09) [![更新](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--10--09-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
 
 **QUANTSKILLS** 是 AI Agent 时代的开放量化社区，聚焦 **Quant Skills（量化技能）** 与 **Agents（智能体）** 两类资产。由 [PandaAI](https://www.pandaaiquant.com/) 发起，帮助量化开发者把交易经验、研究方法、因子模型与策略代码，转化为**可检索、可安装、可验证、可分享**的标准化资产。
 
@@ -59,7 +59,7 @@ mindmap
 | [skill-factor-rl-weighting](https://github.com/quantskills/skill-factor-rl-weighting) | 多因子强化学习动态权重、稳健性检验与静态方案回退 | — |
 | [skill-factor-calendar-formulas](https://github.com/quantskills/skill-factor-calendar-formulas) | 基于独立公式运行时，基于https://factors.directory/zh复现的量价与基本面因子 | — |
 | [skill-factor-alpha191-alpha101](https://github.com/quantskills/skill-factor-alpha191-alpha101) | 从长表OHLCV CSV批量计算Alpha101和Alpha191因子并输出宽表CSV。 | — |
-| [skill-factor-drift-monitor](https://github.com/quantskills/skill-factor-drift-monitor) | Diagnose missingness, anomalies, coverage changes, and distribution drift in factor panel data. | — |
+| [skill-factor-drift-monitor](https://github.com/quantskills/skill-factor-drift-monitor) | 检查日期与证券面板的因子漂移、覆盖率、缺失、重复及分布变化，可结合后续收益观察预测能力退化；仅供研究。 | — |
 | [skill-templeton-global-contrarian](https://github.com/quantskills/skill-templeton-global-contrarian) | 当需要开发、计算、验证 Templeton 全球价值多因子 V2 时，使用此 skill。适用于 A 股/港股/美股跨市场价值筛选，基于 EP/BP/SP/股息/ROE/杠杆/动量 七子因子截面打分，生成 buy/sell/hold 信号。 | — |
 | [skill-pandaai-factor-online](https://github.com/quantskills/skill-pandaai-factor-online) | 支持PandaAI因子大赛环境配置、在线挖掘、批量回测和成本复盘。 | — |
 | [skill-factormad-debate-factor-mining](https://github.com/quantskills/skill-factormad-debate-factor-mining) | 参考FactorMAD多智能体辩论框架进行可解释的股票Alpha因子挖掘。 | <a href="https://raw.githubusercontent.com/quantskills/quantskills/main/assets/skill-factormad-debate-factor-mining.png"><img src="assets/skill-factormad-debate-factor-mining.png" width="220"></a> |
@@ -106,8 +106,8 @@ mindmap
 
 | 项目 | 说明 | 截图 |
 |---|---|---|
-| [skill-b7-lhb-monitor](https://github.com/quantskills/skill-b7-lhb-monitor) | 监控龙虎榜与席位标签，生成次日关注清单和可筛选的个股详情看板。 | — |
-| [skill-b6-limitup-pool](https://github.com/quantskills/skill-b6-limitup-pool) | 维护每日涨停池，记录首板、连板、炸板、回封、题材和情绪指标并生成看板。 | — |
+| [skill-b7-lhb-monitor](https://github.com/quantskills/skill-b7-lhb-monitor) | 收盘后抓取 A 股龙虎榜，席位匹配为北向、机构、游资、量化或营业部标签，生成次日关注清单、个股详情、区间统计与 HTML 看板。 | — |
+| [skill-b6-limitup-pool](https://github.com/quantskills/skill-b6-limitup-pool) | 每日盘后维护 A 股涨停池，标记首板、连板、炸板与回封，做题材分组、特殊形态与情绪面量化，输出多维表格与 HTML 看板。 | — |
 | [skill-stock-memory-analyzer-usa](https://github.com/quantskills/skill-stock-memory-analyzer-usa) | 对美国存储芯片股票开展多维度研究分析。 | — |
 | [skill-dl-gnn-stock-graph](https://github.com/quantskills/skill-dl-gnn-stock-graph) | 构建A股多层异构图并使用图神经网络进行量化选股与回测。 | — |
 | [skill-audit-opinion-scanner](https://github.com/quantskills/skill-audit-opinion-scanner) | 从审计意见、财务报表和行业对标评估 A 股财务健康并输出风险检查结果。 | — |
@@ -202,12 +202,12 @@ mindmap
 |---|---|---|
 | [skill-signal-portfolio-optimize](https://github.com/quantskills/skill-signal-portfolio-optimize) | 将单个股票信号转换为受基准相对风险、风格、行业、换手和成本约束的可审计组合权重。 | — |
 | [skill-trading-behavior-diagnostics](https://github.com/quantskills/skill-trading-behavior-diagnostics) | 交易心理与行为金融诊断：自动解析交易记录并识别常见行为偏差 | — |
-| [skill-alpha-a3-streak-leader-relay](https://github.com/quantskills/skill-alpha-a3-streak-leader-relay) | 连板龙头接力（A3）Alpha 因子——从全 A 市场每日 ≥3 板候选池中识别 T+1 接力的事件型 top-N 信号，10 个子因子（个股截面 8 + 大盘情绪 2），权重可用 ICIR + shrinkage 重训，含滚动 IC gate 与 score 加权。研究层面的候选发现器，非交易策略。 | — |
-| [skill-soros-reflexivity-detector](https://github.com/quantskills/skill-soros-reflexivity-detector) | 索罗斯反身性识别器——用双环模型（快环情绪-资金 / 慢环基本面-资本）判断 A 股"这波涨跌是不是自我强化的反身性、转到哪一圈、燃料和裂缝在哪"，做阶段识别与仓位纪律。BUILD 型 skill，可被复盘 agent 或 Alpha 调用。 | — |
-| [skill-llm-rag-financial-qa](https://github.com/quantskills/skill-llm-rag-financial-qa) | 财报公告 RAG 问答系统——就一家 A 股公司的财报/公告提问，给出带官方引用、可核对、拒绝编造的回答。三路路由（数字精确算 / 底仓文本检索 / 官方全文按需）+ 引用纪律 + 拒答。数据源 PandaData 优先、官方披露网页为次级源。BUILD 型 skill，可被复盘 agent 或投研 agent 调用。 | — |
-| [skill-equity-placard-watchlist](https://github.com/quantskills/skill-equity-placard-watchlist) | 举牌行为监控——侦测 A 股股东持股比例上穿 5%/10%/15%/20%/25%/30% 法定披露梯度的权益变动事件，含举牌梯度、意图倾向（财务 vs 战略）、6 个月锁定期、逼近举牌线观察名单。剔除通道账户与股本稀释造成的假举牌。BUILD 型 skill，可被复盘 agent 或事件驱动 Alpha 调用。 | — |
-| [skill-fund-holding-xray](https://github.com/quantskills/skill-fund-holding-xray) | Research-only ETF and fund holding concentration and implied-style analysis using PandaAI data. | — |
-| [skill-backtest-etf](https://github.com/quantskills/skill-backtest-etf) | Research-only listed ETF strategy backtesting with an authorized panda_data SDK and local Parquet. | — |
+| [skill-alpha-a3-streak-leader-relay](https://github.com/quantskills/skill-alpha-a3-streak-leader-relay) | 从全 A 每日三板及以上候选池识别 T+1 接力的事件型 top-N 信号，十个子因子加 ICIR 收缩重训，含滚动 IC gate 与情绪过滤，研究用候选发现器。 | — |
+| [skill-soros-reflexivity-detector](https://github.com/quantskills/skill-soros-reflexivity-detector) | 用快环与慢环双环模型识别 A 股自我强化的反身性行情，输出八阶段判定、燃料与裂缝以及仓位纪律参考，不预测顶底。 | — |
+| [skill-llm-rag-financial-qa](https://github.com/quantskills/skill-llm-rag-financial-qa) | 就 A 股公司财报与公告提问：数字精确计算、文本 BM25 检索、披露全文按需，答案带披露出处、可核对，语料不覆盖即拒答。 | — |
+| [skill-equity-placard-watchlist](https://github.com/quantskills/skill-equity-placard-watchlist) | 从十大股东快照重建 A 股举牌事件：5%–30% 披露梯度上穿或跌破、意图倾向、锁定期与逼近举牌线观察名单，剔除通道账户与股本稀释假信号。 | — |
+| [skill-fund-holding-xray](https://github.com/quantskills/skill-fund-holding-xray) | 从 PandaAI 基金信息及 ETF 成分券估算持仓权重、集中度和行业风格暴露，输出报告与风险提示；估算不替代真实完整持仓。 | — |
+| [skill-backtest-etf](https://github.com/quantskills/skill-backtest-etf) | 使用 PandaData 和本地 Parquet 回测 ETF 时序与截面策略，明确次日成交、价格口径及成本假设；仅供研究。 | — |
 | [skill-tqx-data-research](https://github.com/quantskills/skill-tqx-data-research) | skill tqx research | — |
 | [skill-strategy-performance-report](https://github.com/quantskills/skill-strategy-performance-report) | Use when an agent needs to generate a periodic performance report for a LIVE A-share quant strategy — 日报/周报/月报/半年报/年报 or custom period — covering returns, risk, trade analysis, and position/turnover detail, with embedded visualizations. Outputs a self-contained offline HTML dashboard (interactive ECharts) plus Markdown + JSON. | — |
 | [skill-shortterm-mean-reversal](https://github.com/quantskills/skill-shortterm-mean-reversal) | A 股五交易日收益率横截面反转因子与成本敏感回测。 | — |
@@ -306,7 +306,7 @@ mindmap
 | 项目 | 说明 | 截图 |
 |---|---|---|
 | [agent-quantspace](https://github.com/quantskills/agent-quantspace) | 面向 AI 编码代理的量化研究框架，组织数据、技能、策略、回测和报告工作流。 | <a href="https://raw.githubusercontent.com/quantskills/quantskills/main/assets/agent-quantspace.png"><img src="assets/agent-quantspace.png" width="220"></a> |
-| [agent-cross-market-event-radar](https://github.com/quantskills/agent-cross-market-event-radar) | Cross-market corporate event radar using PandaData for research monitoring; no order execution. | — |
+| [agent-cross-market-event-radar](https://github.com/quantskills/agent-cross-market-event-radar) | 跨市场公司事件雷达：统一汇总 A 股定增解禁、业绩披露与港美股分红、财报、会议、IR 事件，输出每日事件看板、风险提示与研究候选清单。 | — |
 | [agent-future-trading](https://github.com/quantskills/agent-future-trading) | 多智能体期货研究、策略生成、历史回测与研究反馈工作流 | — |
 | [agent-feng-reverse](https://github.com/quantskills/agent-feng-reverse) | 追踪微博"峰哥亡命天涯"的发言，提取股票/市场观点，生成反向操作信号。峰哥是A股知名反向指标，其公开观点具有稳定的反向参考价值。 | — |
 | [agent-earnings-surprise-hunter](https://github.com/quantskills/agent-earnings-surprise-hunter) | 财报季 Surprise/暴雷猎手 Agent。获取财报预告、一致预期、审计意见，计算偏离度并生成分析报告。支持A股/港股/美股。 | — |
@@ -328,8 +328,8 @@ mindmap
 
 | 项目 | 说明 | 截图 |
 |---|---|---|
-| [registry](https://github.com/quantskills/registry) | Public display registry for QUANTSKILLS skill-* and agent-* assets. | — |
 | [quantskills](https://github.com/quantskills/quantskills) | QuantSkills组织的全景导航 ：面向 AI Agent 的开源量化 Skill & Agent 生态，从数据、因子研究、回测验证到风险监控与交易自动化。｜Open-source Quant Skills & Agents for AI-driven research, backtesting, risk and trading automation.——Panoramic navigator for the QuantSkills organization | — |
+| [registry](https://github.com/quantskills/registry) | Public display registry for QUANTSKILLS skill-* and agent-* assets. | — |
 | [.github](https://github.com/quantskills/.github) | — | — |
 | [agent-template](https://github.com/quantskills/agent-template) | 用于创建可移植 QuantSkills 智能体项目的规范模板。 | — |
 | [skill-template](https://github.com/quantskills/skill-template) | 提供 QuantSkills 技能项目的模板结构和说明。 | — |
