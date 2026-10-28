@@ -4,7 +4,7 @@
 
 [简体中文](README.md) | **English**
 
-[![repos](https://img.shields.io/badge/repos-236-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-230-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-15-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--10--27-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
+[![repos](https://img.shields.io/badge/repos-236-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-230-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-15-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--10--28-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
 
 **QUANTSKILLS** is an open community for **Quant Skills and Agents** in the AI Agent era. Initiated by [PandaAI](https://www.tqx.ai/), it helps quant developers turn trading experience, research methods, factor models, and strategy code into standardized assets that can be **searched, installed, validated, and shared**.
 
@@ -54,9 +54,9 @@ mindmap
 
 | Project | Description | Screenshot |
 |---|---|---|
+| [skill-factor-backtest](https://github.com/quantskills/skill-factor-backtest) | Runs long-only cross-sectional factor backtests on supplied factors and market data with diagnostics. | — |
 | [skill-factor-model-tra](https://github.com/quantskills/skill-factor-model-tra) | 使用 TRA 时序路由模型，通过多预测头、历史误差记忆和最优传输分配识别不同交易模式，导出可用于统一回测的股票横截面信号。 | — |
 | [skill-factor-model-factorvae](https://github.com/quantskills/skill-factor-model-factorvae) | 使用 FactorVAE 概率动态因子模型，对多因子时序特征进行训练与预测，导出可用于统一回测的股票横截面信号。 | — |
-| [skill-factor-backtest](https://github.com/quantskills/skill-factor-backtest) | Runs long-only cross-sectional factor backtests on supplied factors and market data with diagnostics. | — |
 | [skill-factor-health-monitor](https://github.com/quantskills/skill-factor-health-monitor) | 因子衰退预警、健康度监控与动态降权建议 | — |
 | [skill-factor-rl-weighting](https://github.com/quantskills/skill-factor-rl-weighting) | 多因子强化学习动态权重、稳健性检验与静态方案回退 | — |
 | [skill-factor-calendar-formulas](https://github.com/quantskills/skill-factor-calendar-formulas) | 基于独立公式运行时，基于https://factors.directory/zh复现的量价与基本面因子 | — |
