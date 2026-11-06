@@ -4,7 +4,7 @@
 
 **简体中文** | [English](README.en.md)
 
-[![仓库](https://img.shields.io/badge/%E4%BB%93%E5%BA%93-239-blue)](https://github.com/orgs/quantskills/repositories) [![百宝箱收录](https://img.shields.io/badge/%E7%99%BE%E5%AE%9D%E7%AE%B1%E6%94%B6%E5%BD%95-233-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-15-d62728)](#cat-09) [![更新](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--11--05-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
+[![仓库](https://img.shields.io/badge/%E4%BB%93%E5%BA%93-239-blue)](https://github.com/orgs/quantskills/repositories) [![百宝箱收录](https://img.shields.io/badge/%E7%99%BE%E5%AE%9D%E7%AE%B1%E6%94%B6%E5%BD%95-233-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-15-d62728)](#cat-09) [![更新](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--11--06-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
 
 **QUANTSKILLS** 是 AI Agent 时代的开放量化社区，聚焦 **Quant Skills（量化技能）** 与 **Agents（智能体）** 两类资产。由 [PandaAI](https://www.pandaaiquant.com/) 发起，帮助量化开发者把交易经验、研究方法、因子模型与策略代码，转化为**可检索、可安装、可验证、可分享**的标准化资产。
 
@@ -202,6 +202,9 @@ mindmap
 
 | 项目 | 说明 | 截图 |
 |---|---|---|
+| [skill-cross-market-executable-signal](https://github.com/quantskills/skill-cross-market-executable-signal) | 跨市场时间对齐研究工具：日频信息匹配、滞后基线、扣费回放与稳健性检查，仅供研究 | — |
+| [skill-cta-parameter-generalization](https://github.com/quantskills/skill-cta-parameter-generalization) | CTA 参数共享与跨品种泛化研究，含费用压力测试、冻结配置和实际验证结果 | — |
+| [skill-prompt-workflow-regression](https://github.com/quantskills/skill-prompt-workflow-regression) | 提示词与工作流回归测试，比较通过率、重复波动和成本，检测退化并辅助回滚 | — |
 | [skill-trendline-breakdown-reversal](https://github.com/quantskills/skill-trendline-breakdown-reversal) | 计算A股日线下跌突破划线压力位反转因子，识别下破下降压力线后反转确认的个股；当用户提供交易日期、要求自动获取当日全市场A股行情、量化选股、因子研究或回测时使用。 | — |
 | [skill-transaction-cost-analysis](https://github.com/quantskills/skill-transaction-cost-analysis) | 将成交记录相对 VWAP/TWAP 分解为多类交易成本。 | — |
 | [skill-strategy-tearsheet-report](https://github.com/quantskills/skill-strategy-tearsheet-report) | 生成包含风险调整指标的策略绩效 tearsheet。 | — |
@@ -241,7 +244,6 @@ mindmap
 | [skill-dl-transformer-multiasset](https://github.com/quantskills/skill-dl-transformer-multiasset) | skill dl transformer multiasset | — |
 | [skill-dl-tcn-shortterm](https://github.com/quantskills/skill-dl-tcn-shortterm) | 使用因果扩张 Temporal Convolutional Network 对沪深 A 股分钟线执行未来 1、2、3、5 个交易日的横截面收益排序研究，并以同数据、切分和预算的 LSTM 作为基准，生成可审计的数据、训练、速度和预测效果证据。用于运行或诊断 TCN 短线预测、核验感受野与因果卷积、PIT/walk-forward/purge/embargo、防止未来泄漏、比较 RankIC/Top 区域指标与训练吞吐，或判断研究模型是否达到冻结候选条件；不用于组合换手优化、券商连接、实盘交易或收益承诺。 | — |
 | [skill-dl-autoencoder-anomaly](https://github.com/quantskills/skill-dl-autoencoder-anomaly) | 深度自编码器无监督异常检测 —— 用户问「今天哪些股票走势最异常」「沪深300 异常股」「AE 跑一下」「找不像自己往常样子的股票」类问题时触发。对沪深300成分股用最近60日窗口重训一个MLP自编码器，输出T日重建误差Top-10异常股，按「样式② 结构化播报」呈现。 | — |
-| [skill-cta-parameter-generalization](https://github.com/quantskills/skill-cta-parameter-generalization) | CTA 参数共享与跨品种泛化研究，含费用压力测试、冻结配置和实际验证结果 | — |
 | [skill-csrc-approval-pipeline](https://github.com/quantskills/skill-csrc-approval-pipeline) | A 股证监会批文进度追踪：按公告级别分类、审批流程监控、批文状态报告生成。 | — |
 | [skill-commodity-carry-cta](https://github.com/quantskills/skill-commodity-carry-cta) | 构建商品期货 carry、时序动量、横截面动量、基差动量和库存因子并回测轮动。 | — |
 | [skill-cb-analyzer](https://github.com/quantskills/skill-cb-analyzer) | 分析 A 股可转债双低策略、条款事件、正股联动、Black-Scholes Greeks 与波动率。 | — |
@@ -255,8 +257,6 @@ mindmap
 | [skill-a-share-pit-fundamental-vintage-builder](https://github.com/quantskills/skill-a-share-pit-fundamental-vintage-builder) | 按披露可见时点构建并审计 A 股财务数据，避免使用后续重述信息。 | — |
 | [skill-a-share-market-risk-radar](https://github.com/quantskills/skill-a-share-market-risk-radar) | 扫描 A 股宏观、资金、估值、趋势、行业轮动与个股事件并汇总风险等级。 | — |
 | [skill-a-share-market-participation](https://github.com/quantskills/skill-a-share-market-participation) | Analyze A-share cross-sectional market participation, turnover concentration, liquidity distribution, speculative crowding, leader dependence, and structural fragility from daily or intraday stock snapshots. Use when the user asks in Chinese or English to analyze A-share market breadth, participation, turnover concentration, crowding, whether an index rally is broad or narrow, or to generate a reproducible market-structure report. Use only bundled scripts with PandaData as the primary live source, AKShare as fallback, or user-provided local data; never search, browse, or scrape webpages for replacement market data, and fail closed when approved sources are unavailable. Do not use for order routing, fill simulation, slippage/TCA, live trade execution, or stock-level margin/northbound/block-trade capital-flow attribution. | — |
-| [skill-prompt-workflow-regression](https://github.com/quantskills/skill-prompt-workflow-regression) | 提示词与工作流回归测试，比较通过率、重复波动和成本，检测退化并辅助回滚 | — |
-| [skill-cross-market-executable-signal](https://github.com/quantskills/skill-cross-market-executable-signal) | 跨市场时间对齐研究工具：日频信息匹配、滞后基线、扣费回放与稳健性检查，仅供研究 | — |
 | [skill-model-label-blo](https://github.com/quantskills/skill-model-label-blo) | 基于双层优化动态学习不同收益期限标签的权重，将多期限监督信号用于量化模型训练，并输出可用于回测的股票预测信号。 | — |
 | [skill-signal-portfolio-optimize](https://github.com/quantskills/skill-signal-portfolio-optimize) | 将单个股票信号转换为受基准相对风险、风格、行业、换手和成本约束的可审计组合权重。 | — |
 | [skill-trading-behavior-diagnostics](https://github.com/quantskills/skill-trading-behavior-diagnostics) | 交易心理与行为金融诊断：自动解析交易记录并识别常见行为偏差 | — |
@@ -301,10 +301,10 @@ mindmap
 
 | 项目 | 说明 | 截图 |
 |---|---|---|
+| [QuantStudio](https://github.com/quantskills/QuantStudio) | 本地 AI 研究与办公工作台 · 技能、专家、专家团、数据与成果 | A local AI workspace for research and everyday work | — |
 | [skill-news-sentiment-analyst](https://github.com/quantskills/skill-news-sentiment-analyst) | 采集、核验并分析A股财经新闻情绪，生成研究报告。 | — |
 | [skill-munger-mental-model](https://github.com/quantskills/skill-munger-mental-model) | 运用多元思维模型框架生成公司投资研究和判断报告。 | — |
 | [skill-fin-news](https://github.com/quantskills/skill-fin-news) | 聚合财经快讯和市场数据，精选头条并撰写分析文章。 | — |
-| [QuantStudio](https://github.com/quantskills/QuantStudio) | 本地 AI 研究与办公工作台 · 技能、专家、专家团、数据与成果 | A local AI workspace for research and everyday work | — |
 
 <a id="cat-09"></a>
 ## 09 热门智能体
