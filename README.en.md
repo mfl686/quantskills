@@ -4,7 +4,7 @@
 
 [简体中文](README.md) | **English**
 
-[![repos](https://img.shields.io/badge/repos-239-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-233-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-15-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--11--11-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
+[![repos](https://img.shields.io/badge/repos-239-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-233-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-15-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--11--12-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
 
 **QUANTSKILLS** is an open community for **Quant Skills and Agents** in the AI Agent era. Initiated by [PandaAI](https://www.tqx.ai/), it helps quant developers turn trading experience, research methods, factor models, and strategy code into standardized assets that can be **searched, installed, validated, and shared**.
 
@@ -108,10 +108,10 @@ mindmap
 
 | Project | Description | Screenshot |
 |---|---|---|
+| [skill-dl-gnn-stock-graph](https://github.com/quantskills/skill-dl-gnn-stock-graph) | Builds A-share heterogeneous graphs for GNN stock selection and backtesting. | — |
 | [skill-stock-memory-analyzer-usa](https://github.com/quantskills/skill-stock-memory-analyzer-usa) | Performs multidimensional research analysis of US memory-chip stocks. | — |
 | [skill-oil-brief](https://github.com/quantskills/skill-oil-brief) | Combines futures, EIA, OPEC, and market data into Chinese crude-oil briefs. | — |
 | [skill-hk-stock-dossier](https://github.com/quantskills/skill-hk-stock-dossier) | Generates nine-dimension Hong Kong equity due-diligence reports from Pandadata interfaces. | — |
-| [skill-dl-gnn-stock-graph](https://github.com/quantskills/skill-dl-gnn-stock-graph) | Builds A-share heterogeneous graphs for GNN stock selection and backtesting. | — |
 | [skill-b7-lhb-monitor](https://github.com/quantskills/skill-b7-lhb-monitor) | Pulls the post-market A-share dragon-tiger list, tags broker seats as northbound, institution, hot-money, quant or branch, and builds a next-day watchlist with an HTML dashboard; research only. | — |
 | [skill-b6-limitup-pool](https://github.com/quantskills/skill-b6-limitup-pool) | Maintains the daily A-share limit-up pool with streak, blow-up and re-seal marks, theme groups, special patterns and sentiment metrics; outputs tables and an HTML dashboard; research only. | — |
 | [skill-audit-opinion-scanner](https://github.com/quantskills/skill-audit-opinion-scanner) | Assesses A-share financial health from audit opinions, statements, and industry benchmarks with risk checks. | — |
@@ -334,8 +334,8 @@ Governance, scaffolding and templates (incl. the quantskills nav repo).
 
 | Project | Description | Screenshot |
 |---|---|---|
-| [registry](https://github.com/quantskills/registry) | Public display registry for QUANTSKILLS skill-* and agent-* assets. | — |
 | [quantskills](https://github.com/quantskills/quantskills) | QuantSkills组织的全景导航 ：面向 AI Agent 的开源量化 Skill & Agent 生态，从数据、因子研究、回测验证到风险监控与交易自动化。｜Open-source Quant Skills & Agents for AI-driven research, backtesting, risk and trading automation.——Panoramic navigator for the QuantSkills organization | — |
+| [registry](https://github.com/quantskills/registry) | Public display registry for QUANTSKILLS skill-* and agent-* assets. | — |
 | [.github](https://github.com/quantskills/.github) | — | — |
 | [agent-template](https://github.com/quantskills/agent-template) | Canonical template for portable QuantSkills agent projects. | — |
 | [skill-template](https://github.com/quantskills/skill-template) | Provides a template structure and instructions for QuantSkills skill projects. | — |

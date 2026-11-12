@@ -4,7 +4,7 @@
 
 **简体中文** | [English](README.en.md)
 
-[![仓库](https://img.shields.io/badge/%E4%BB%93%E5%BA%93-239-blue)](https://github.com/orgs/quantskills/repositories) [![百宝箱收录](https://img.shields.io/badge/%E7%99%BE%E5%AE%9D%E7%AE%B1%E6%94%B6%E5%BD%95-233-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-15-d62728)](#cat-09) [![更新](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--11--11-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
+[![仓库](https://img.shields.io/badge/%E4%BB%93%E5%BA%93-239-blue)](https://github.com/orgs/quantskills/repositories) [![百宝箱收录](https://img.shields.io/badge/%E7%99%BE%E5%AE%9D%E7%AE%B1%E6%94%B6%E5%BD%95-233-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-15-d62728)](#cat-09) [![更新](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0-2026--11--12-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
 
 **QUANTSKILLS** 是 AI Agent 时代的开放量化社区，聚焦 **Quant Skills（量化技能）** 与 **Agents（智能体）** 两类资产。由 [PandaAI](https://www.pandaaiquant.com/) 发起，帮助量化开发者把交易经验、研究方法、因子模型与策略代码，转化为**可检索、可安装、可验证、可分享**的标准化资产。
 
@@ -108,10 +108,10 @@ mindmap
 
 | 项目 | 说明 | 截图 |
 |---|---|---|
+| [skill-dl-gnn-stock-graph](https://github.com/quantskills/skill-dl-gnn-stock-graph) | 构建A股多层异构图并使用图神经网络进行量化选股与回测。 | — |
 | [skill-stock-memory-analyzer-usa](https://github.com/quantskills/skill-stock-memory-analyzer-usa) | 对美国存储芯片股票开展多维度研究分析。 | — |
 | [skill-oil-brief](https://github.com/quantskills/skill-oil-brief) | 整合期货、EIA、OPEC和市场数据生成中文原油简报。 | — |
 | [skill-hk-stock-dossier](https://github.com/quantskills/skill-hk-stock-dossier) | 基于Pandadata接口生成覆盖九个维度的港股尽职调查研报。 | — |
-| [skill-dl-gnn-stock-graph](https://github.com/quantskills/skill-dl-gnn-stock-graph) | 构建A股多层异构图并使用图神经网络进行量化选股与回测。 | — |
 | [skill-b7-lhb-monitor](https://github.com/quantskills/skill-b7-lhb-monitor) | 收盘后抓取 A 股龙虎榜，席位匹配为北向、机构、游资、量化或营业部标签，生成次日关注清单、个股详情、区间统计与 HTML 看板。 | — |
 | [skill-b6-limitup-pool](https://github.com/quantskills/skill-b6-limitup-pool) | 每日盘后维护 A 股涨停池，标记首板、连板、炸板与回封，做题材分组、特殊形态与情绪面量化，输出多维表格与 HTML 看板。 | — |
 | [skill-audit-opinion-scanner](https://github.com/quantskills/skill-audit-opinion-scanner) | 从审计意见、财务报表和行业对标评估 A 股财务健康并输出风险检查结果。 | — |
@@ -334,8 +334,8 @@ mindmap
 
 | 项目 | 说明 | 截图 |
 |---|---|---|
-| [registry](https://github.com/quantskills/registry) | Public display registry for QUANTSKILLS skill-* and agent-* assets. | — |
 | [quantskills](https://github.com/quantskills/quantskills) | QuantSkills组织的全景导航 ：面向 AI Agent 的开源量化 Skill & Agent 生态，从数据、因子研究、回测验证到风险监控与交易自动化。｜Open-source Quant Skills & Agents for AI-driven research, backtesting, risk and trading automation.——Panoramic navigator for the QuantSkills organization | — |
+| [registry](https://github.com/quantskills/registry) | Public display registry for QUANTSKILLS skill-* and agent-* assets. | — |
 | [.github](https://github.com/quantskills/.github) | — | — |
 | [agent-template](https://github.com/quantskills/agent-template) | 用于创建可移植 QuantSkills 智能体项目的规范模板。 | — |
 | [skill-template](https://github.com/quantskills/skill-template) | 提供 QuantSkills 技能项目的模板结构和说明。 | — |
