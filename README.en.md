@@ -4,7 +4,7 @@
 
 [简体中文](README.md) | **English**
 
-[![repos](https://img.shields.io/badge/repos-239-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-233-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-15-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--11--12-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
+[![repos](https://img.shields.io/badge/repos-241-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-235-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-15-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--11--13-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
 
 **QUANTSKILLS** is an open community for **Quant Skills and Agents** in the AI Agent era. Initiated by [PandaAI](https://www.tqx.ai/), it helps quant developers turn trading experience, research methods, factor models, and strategy code into standardized assets that can be **searched, installed, validated, and shared**.
 
@@ -202,6 +202,8 @@ mindmap
 
 | Project | Description | Screenshot |
 |---|---|---|
+| [skill-model-stockmamba](https://github.com/quantskills/skill-model-stockmamba) | 面向多因子股票收益预测的 StockMamba 模型复现，支持历史因子序列、市场状态特征、状态空间建模、跨股票注意力和排序信号导出。 | — |
+| [skill-model-doubleadapt](https://github.com/quantskills/skill-model-doubleadapt) | 用于多因子股票收益预测的 DoubleAdapt 模型训练、Support/Query 适配、在线更新和信号推理。适用于需要根据市场状态调整特征与标签映射的截面预测任务 | — |
 | [skill-prompt-workflow-regression](https://github.com/quantskills/skill-prompt-workflow-regression) | 提示词与工作流回归测试，比较通过率、重复波动和成本，检测退化并辅助回滚 | — |
 | [skill-cta-parameter-generalization](https://github.com/quantskills/skill-cta-parameter-generalization) | CTA 参数共享与跨品种泛化研究，含费用压力测试、冻结配置和实际验证结果 | — |
 | [skill-cross-market-executable-signal](https://github.com/quantskills/skill-cross-market-executable-signal) | 跨市场时间对齐研究工具：日频信息匹配、滞后基线、扣费回放与稳健性检查，仅供研究 | — |
@@ -334,8 +336,8 @@ Governance, scaffolding and templates (incl. the quantskills nav repo).
 
 | Project | Description | Screenshot |
 |---|---|---|
-| [quantskills](https://github.com/quantskills/quantskills) | QuantSkills组织的全景导航 ：面向 AI Agent 的开源量化 Skill & Agent 生态，从数据、因子研究、回测验证到风险监控与交易自动化。｜Open-source Quant Skills & Agents for AI-driven research, backtesting, risk and trading automation.——Panoramic navigator for the QuantSkills organization | — |
 | [registry](https://github.com/quantskills/registry) | Public display registry for QUANTSKILLS skill-* and agent-* assets. | — |
+| [quantskills](https://github.com/quantskills/quantskills) | QuantSkills组织的全景导航 ：面向 AI Agent 的开源量化 Skill & Agent 生态，从数据、因子研究、回测验证到风险监控与交易自动化。｜Open-source Quant Skills & Agents for AI-driven research, backtesting, risk and trading automation.——Panoramic navigator for the QuantSkills organization | — |
 | [.github](https://github.com/quantskills/.github) | — | — |
 | [agent-template](https://github.com/quantskills/agent-template) | Canonical template for portable QuantSkills agent projects. | — |
 | [skill-template](https://github.com/quantskills/skill-template) | Provides a template structure and instructions for QuantSkills skill projects. | — |
