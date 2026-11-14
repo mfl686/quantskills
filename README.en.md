@@ -4,7 +4,7 @@
 
 [简体中文](README.md) | **English**
 
-[![repos](https://img.shields.io/badge/repos-241-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-235-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-15-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--11--13-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
+[![repos](https://img.shields.io/badge/repos-244-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-238-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-16-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--11--14-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
 
 **QUANTSKILLS** is an open community for **Quant Skills and Agents** in the AI Agent era. Initiated by [PandaAI](https://www.tqx.ai/), it helps quant developers turn trading experience, research methods, factor models, and strategy code into standardized assets that can be **searched, installed, validated, and shared**.
 
@@ -202,6 +202,8 @@ mindmap
 
 | Project | Description | Screenshot |
 |---|---|---|
+| [skill-dragon-head-hunter](https://github.com/quantskills/skill-dragon-head-hunter) | A股龙头战法决策 Skill：龙头识别、买点判断、持有卖出、仓位计算、复盘记录、市场环境评估六大模块 | — |
+| [skill-student-index](https://github.com/quantskills/skill-student-index) | A股散户情绪反向指标 Agent Skill：基于擦鞋童理论分析学生党/大学生投资讨论，计算情绪指数并生成可视化看板 | — |
 | [skill-model-stockmamba](https://github.com/quantskills/skill-model-stockmamba) | 面向多因子股票收益预测的 StockMamba 模型复现，支持历史因子序列、市场状态特征、状态空间建模、跨股票注意力和排序信号导出。 | — |
 | [skill-model-doubleadapt](https://github.com/quantskills/skill-model-doubleadapt) | 用于多因子股票收益预测的 DoubleAdapt 模型训练、Support/Query 适配、在线更新和信号推理。适用于需要根据市场状态调整特征与标签映射的截面预测任务 | — |
 | [skill-prompt-workflow-regression](https://github.com/quantskills/skill-prompt-workflow-regression) | 提示词与工作流回归测试，比较通过率、重复波动和成本，检测退化并辅助回滚 | — |
@@ -313,6 +315,7 @@ mindmap
 
 | Project | Description | Screenshot |
 |---|---|---|
+| [agent-investor-roundtable](https://github.com/quantskills/agent-investor-roundtable) | A2A 投顾委员会：总管 Agent 并行派发任务给五位投资大师 Agent（巴菲特/林奇/费雪/利弗莫尔/格雷厄姆），汇总分歧并传达最终决议 | — |
 | [agent-quantspace](https://github.com/quantskills/agent-quantspace) | AI-native quantitative research framework for reusable skills, strategy workflows, backtests, and reports. | <a href="https://raw.githubusercontent.com/quantskills/quantskills/main/assets/agent-quantspace.png"><img src="assets/agent-quantspace.png" width="220"></a> |
 | [agent-market-regime-monitor](https://github.com/quantskills/agent-market-regime-monitor) | Monitors market regimes from Pandadata index breadth, volatility, and funding evidence. | <a href="https://raw.githubusercontent.com/quantskills/quantskills/main/assets/agent-market-regime-monitor.png"><img src="assets/agent-market-regime-monitor.png" width="220"></a> |
 | [agent-macro-driven-rotation](https://github.com/quantskills/agent-macro-driven-rotation) | Generates macro-driven industry-rotation research materials from clock phases, nowcasts, and valuation filters. | — |
