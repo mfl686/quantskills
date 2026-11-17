@@ -4,7 +4,7 @@
 
 [简体中文](README.md) | **English**
 
-[![repos](https://img.shields.io/badge/repos-247-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-241-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-16-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--11--17-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
+[![repos](https://img.shields.io/badge/repos-249-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-243-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-17-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--11--17-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
 
 **QUANTSKILLS** is an open community for **Quant Skills and Agents** in the AI Agent era. Initiated by [PandaAI](https://www.tqx.ai/), it helps quant developers turn trading experience, research methods, factor models, and strategy code into standardized assets that can be **searched, installed, validated, and shared**.
 
@@ -202,6 +202,7 @@ mindmap
 
 | Project | Description | Screenshot |
 |---|---|---|
+| [skill-futures-capacity-boundary](https://github.com/quantskills/skill-futures-capacity-boundary) | Capacity range, not a fake capital limit, for a frozen futures strategy: intraday participation, roll legs, margin runway and OI share per capital level, with assumption error analysis; research only. | — |
 | [skill-q6-risk-budget](https://github.com/quantskills/skill-q6-risk-budget) | CTA 组合风险预算 BUILD：等权、波动率目标、ERC 的扣费后对照（Q6） | — |
 | [skill-q4-seat-alpha](https://github.com/quantskills/skill-q4-seat-alpha) | 期货席位 Alpha 因子：F1/F5/F6/F8 与等权合成，含未来函数、样本外、过拟合检查（Q4） | — |
 | [skill-q2-roll-cta](https://github.com/quantskills/skill-q2-roll-cta) | 商品期货换月规则对照 BUILD：同一冻结 CTA 信号下比较固定日期、持仓量确认、渐进换月的扣费后收益与换月成本（Q2） | — |
@@ -318,6 +319,7 @@ mindmap
 
 | Project | Description | Screenshot |
 |---|---|---|
+| [agent-strategy-red-team](https://github.com/quantskills/agent-strategy-red-team) | Pre-release red team for futures strategies: searches plausible counterexamples, compares with a fixed stress list at equal budget, and regression-tests fixes; research only. | — |
 | [agent-investor-roundtable](https://github.com/quantskills/agent-investor-roundtable) | A2A 投顾委员会：总管 Agent 并行派发任务给五位投资大师 Agent（巴菲特/林奇/费雪/利弗莫尔/格雷厄姆），汇总分歧并传达最终决议 | — |
 | [agent-quantspace](https://github.com/quantskills/agent-quantspace) | AI-native quantitative research framework for reusable skills, strategy workflows, backtests, and reports. | <a href="https://raw.githubusercontent.com/quantskills/quantskills/main/assets/agent-quantspace.png"><img src="assets/agent-quantspace.png" width="220"></a> |
 | [agent-market-regime-monitor](https://github.com/quantskills/agent-market-regime-monitor) | Monitors market regimes from Pandadata index breadth, volatility, and funding evidence. | <a href="https://raw.githubusercontent.com/quantskills/quantskills/main/assets/agent-market-regime-monitor.png"><img src="assets/agent-market-regime-monitor.png" width="220"></a> |
