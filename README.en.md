@@ -4,7 +4,7 @@
 
 [简体中文](README.md) | **English**
 
-[![repos](https://img.shields.io/badge/repos-244-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-238-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-16-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--11--15-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
+[![repos](https://img.shields.io/badge/repos-247-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-241-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-16-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--11--17-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
 
 **QUANTSKILLS** is an open community for **Quant Skills and Agents** in the AI Agent era. Initiated by [PandaAI](https://www.tqx.ai/), it helps quant developers turn trading experience, research methods, factor models, and strategy code into standardized assets that can be **searched, installed, validated, and shared**.
 
@@ -202,6 +202,9 @@ mindmap
 
 | Project | Description | Screenshot |
 |---|---|---|
+| [skill-q6-risk-budget](https://github.com/quantskills/skill-q6-risk-budget) | CTA 组合风险预算 BUILD：等权、波动率目标、ERC 的扣费后对照（Q6） | — |
+| [skill-q4-seat-alpha](https://github.com/quantskills/skill-q4-seat-alpha) | 期货席位 Alpha 因子：F1/F5/F6/F8 与等权合成，含未来函数、样本外、过拟合检查（Q4） | — |
+| [skill-q2-roll-cta](https://github.com/quantskills/skill-q2-roll-cta) | 商品期货换月规则对照 BUILD：同一冻结 CTA 信号下比较固定日期、持仓量确认、渐进换月的扣费后收益与换月成本（Q2） | — |
 | [skill-dragon-head-hunter](https://github.com/quantskills/skill-dragon-head-hunter) | A股龙头战法决策 Skill：龙头识别、买点判断、持有卖出、仓位计算、复盘记录、市场环境评估六大模块 | — |
 | [skill-student-index](https://github.com/quantskills/skill-student-index) | A股散户情绪反向指标 Agent Skill：基于擦鞋童理论分析学生党/大学生投资讨论，计算情绪指数并生成可视化看板 | — |
 | [skill-model-stockmamba](https://github.com/quantskills/skill-model-stockmamba) | 面向多因子股票收益预测的 StockMamba 模型复现，支持历史因子序列、市场状态特征、状态空间建模、跨股票注意力和排序信号导出。 | — |
