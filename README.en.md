@@ -4,7 +4,7 @@
 
 [简体中文](README.md) | **English**
 
-[![repos](https://img.shields.io/badge/repos-249-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-243-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-17-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--11--19-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
+[![repos](https://img.shields.io/badge/repos-252-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-246-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-17-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--11--20-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
 
 **QUANTSKILLS** is an open community for **Quant Skills and Agents** in the AI Agent era. Initiated by [PandaAI](https://www.tqx.ai/), it helps quant developers turn trading experience, research methods, factor models, and strategy code into standardized assets that can be **searched, installed, validated, and shared**.
 
@@ -54,6 +54,8 @@ mindmap
 
 | Project | Description | Screenshot |
 |---|---|---|
+| [skill-kmeans-factor-clustering](https://github.com/quantskills/skill-kmeans-factor-clustering) | 使用训练期因子嵌入执行K均值聚类，记录随机种子与收敛诊断，并将簇质心映射为原始候选代表因子，输出审计清单。 | — |
+| [skill-factor-coverage-filter](https://github.com/quantskills/skill-factor-coverage-filter) | 在因子研究前检查候选因子的日期覆盖、股票覆盖、缺失比例与有限值完整性，并按预设阈值输出可审计的保留清单结果。 | — |
 | [skill-templeton-global-contrarian](https://github.com/quantskills/skill-templeton-global-contrarian) | 当需要开发、计算、验证 Templeton 全球价值多因子 V2 时，使用此 skill。适用于 A 股/港股/美股跨市场价值筛选，基于 EP/BP/SP/股息/ROE/杠杆/动量 七子因子截面打分，生成 buy/sell/hold 信号。 | — |
 | [skill-ml-factor-ensemble](https://github.com/quantskills/skill-ml-factor-ensemble) | Ensembles machine-learning models into factor meta-signals with leakage-aware rolling validation. | — |
 | [skill-hk-us-fundamental-factor](https://github.com/quantskills/skill-hk-us-fundamental-factor) | Build, standardize, compare, and validate multi-factor fundamental panels for Hong Kong and US equities from PandaAI operating, market-financial, industry-median, price-volume, and financial-statement APIs. Use for quality, value, growth, momentum, low-risk, composite-score, percentile-rank, or cross-market stock-screening tasks. | — |
@@ -203,6 +205,7 @@ mindmap
 | Project | Description | Screenshot |
 |---|---|---|
 | [skill-futures-capacity-boundary](https://github.com/quantskills/skill-futures-capacity-boundary) | Capacity range, not a fake capital limit, for a frozen futures strategy: intraday participation, roll legs, margin runway and OI share per capital level, with assumption error analysis; research only. | — |
+| [skill-hierarchical-average-linkage](https://github.com/quantskills/skill-hierarchical-average-linkage) | 仅使用训练期因子曲线计算相关距离，通过平均连接层次聚类识别冗余结构，并从每个簇中选择真实代表因子，形成清单。 | — |
 | [skill-q6-risk-budget](https://github.com/quantskills/skill-q6-risk-budget) | CTA 组合风险预算 BUILD：等权、波动率目标、ERC 的扣费后对照（Q6） | — |
 | [skill-q4-seat-alpha](https://github.com/quantskills/skill-q4-seat-alpha) | 期货席位 Alpha 因子：F1/F5/F6/F8 与等权合成，含未来函数、样本外、过拟合检查（Q4） | — |
 | [skill-q2-roll-cta](https://github.com/quantskills/skill-q2-roll-cta) | 商品期货换月规则对照 BUILD：同一冻结 CTA 信号下比较固定日期、持仓量确认、渐进换月的扣费后收益与换月成本（Q2） | — |
@@ -319,9 +322,9 @@ mindmap
 
 | Project | Description | Screenshot |
 |---|---|---|
+| [agent-strategy-red-team](https://github.com/quantskills/agent-strategy-red-team) | Pre-release red team for futures strategies: searches plausible counterexamples, compares with a fixed stress list at equal budget, and regression-tests fixes; research only. | — |
 | [agent-for-liangshuyuan-tasks](https://github.com/quantskills/agent-for-liangshuyuan-tasks) | Multi-agent collaboration framework for Liangshuyuan tasks, organizing quantitative tools, build workflows, and task roles. | — |
 | [agent-quantspace](https://github.com/quantskills/agent-quantspace) | AI-native quantitative research framework for reusable skills, strategy workflows, backtests, and reports. | <a href="https://raw.githubusercontent.com/quantskills/quantskills/main/assets/agent-quantspace.png"><img src="assets/agent-quantspace.png" width="220"></a> |
-| [agent-strategy-red-team](https://github.com/quantskills/agent-strategy-red-team) | Pre-release red team for futures strategies: searches plausible counterexamples, compares with a fixed stress list at equal budget, and regression-tests fixes; research only. | — |
 | [agent-investor-roundtable](https://github.com/quantskills/agent-investor-roundtable) | A2A 投顾委员会：总管 Agent 并行派发任务给五位投资大师 Agent（巴菲特/林奇/费雪/利弗莫尔/格雷厄姆），汇总分歧并传达最终决议 | — |
 | [agent-market-regime-monitor](https://github.com/quantskills/agent-market-regime-monitor) | Monitors market regimes from Pandadata index breadth, volatility, and funding evidence. | <a href="https://raw.githubusercontent.com/quantskills/quantskills/main/assets/agent-market-regime-monitor.png"><img src="assets/agent-market-regime-monitor.png" width="220"></a> |
 | [agent-macro-driven-rotation](https://github.com/quantskills/agent-macro-driven-rotation) | Generates macro-driven industry-rotation research materials from clock phases, nowcasts, and valuation filters. | — |
