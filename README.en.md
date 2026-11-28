@@ -4,7 +4,7 @@
 
 [简体中文](README.md) | **English**
 
-[![repos](https://img.shields.io/badge/repos-252-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-246-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-17-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--11--27-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
+[![repos](https://img.shields.io/badge/repos-265-blue)](https://github.com/orgs/quantskills/repositories) [![in-catalog](https://img.shields.io/badge/in--catalog-259-8a2be2)](https://ncn9g4d5xvof.feishu.cn/wiki/ZMD0w4rvoivnHVkoVwKcunkvn1g) [![Agents](https://img.shields.io/badge/Agents-20-d62728)](#cat-09) [![updated](https://img.shields.io/badge/updated-2026--11--28-lightgrey)](https://github.com/quantskills/quantskills/commits/main)
 
 **QUANTSKILLS** is an open community for **Quant Skills and Agents** in the AI Agent era. Initiated by [PandaAI](https://www.tqx.ai/), it helps quant developers turn trading experience, research methods, factor models, and strategy code into standardized assets that can be **searched, installed, validated, and shared**.
 
@@ -54,6 +54,8 @@ mindmap
 
 | Project | Description | Screenshot |
 |---|---|---|
+| [skill-hdbscan-factor-clustering](https://github.com/quantskills/skill-hdbscan-factor-clustering) | 使用训练期因子曲线嵌入执行HDBSCAN密度聚类，识别可变密度群组与离群因子，输出代表因子及完整审计结果 | — |
+| [skill-factor-drift-closure](https://github.com/quantskills/skill-factor-drift-closure) | Evaluates out-of-sample net value after factor-drift alerts and response actions. | — |
 | [skill-kmeans-factor-clustering](https://github.com/quantskills/skill-kmeans-factor-clustering) | 使用训练期因子嵌入执行K均值聚类，记录随机种子与收敛诊断，并将簇质心映射为原始候选代表因子，输出审计清单。 | — |
 | [skill-factor-coverage-filter](https://github.com/quantskills/skill-factor-coverage-filter) | 在因子研究前检查候选因子的日期覆盖、股票覆盖、缺失比例与有限值完整性，并按预设阈值输出可审计的保留清单结果。 | — |
 | [skill-templeton-global-contrarian](https://github.com/quantskills/skill-templeton-global-contrarian) | 当需要开发、计算、验证 Templeton 全球价值多因子 V2 时，使用此 skill。适用于 A 股/港股/美股跨市场价值筛选，基于 EP/BP/SP/股息/ROE/杠杆/动量 七子因子截面打分，生成 buy/sell/hold 信号。 | — |
@@ -204,6 +206,14 @@ mindmap
 
 | Project | Description | Screenshot |
 |---|---|---|
+| [skill-greedy-kmedoids](https://github.com/quantskills/skill-greedy-kmedoids) | 基于训练期相关距离运行确定性贪心K中心点聚类，以真实因子作为簇代表，记录分配、目标函数 | — |
+| [skill-spectral-clustering](https://github.com/quantskills/skill-spectral-clustering) | 基于训练期因子曲线构建相似度图并执行谱聚类，识别非线性因子群组，选择真实代表因子并输出可审计结果 | — |
+| [skill-opinion-to-ruler](https://github.com/quantskills/skill-opinion-to-ruler) | Converts trading opinions into testable rule fields and evaluates extraction accuracy and historical results after costs. | — |
+| [skill-video-2-text](https://github.com/quantskills/skill-video-2-text) | Transcribes local audio and video to timestamped text with faster-whisper for review and subtitles. | — |
+| [skill-jev-history-replay](https://github.com/quantskills/skill-jev-history-replay) | Compares JEV watch conditions with historical replay offline and records differences in decisions, timing, entries, and exits. | — |
+| [skill-strategy-lifecycle](https://github.com/quantskills/skill-strategy-lifecycle) | Replays point-in-time strategy states and compares exposure reductions, cooldown, retirement, and reactivation with costs. | — |
+| [skill-delivery-regime-risk](https://github.com/quantskills/skill-delivery-regime-risk) | Builds futures delivery, position-limit, and margin event calendars and compares historical risk for early reduction and unchanged positions. | — |
+| [skill-constraint-stress-test](https://github.com/quantskills/skill-constraint-stress-test) | Evaluates trading safeguards in offline replay with duplicate input, prompt perturbation, missing quotes, and timeout retries. | — |
 | [skill-futures-capacity-boundary](https://github.com/quantskills/skill-futures-capacity-boundary) | Capacity range, not a fake capital limit, for a frozen futures strategy: intraday participation, roll legs, margin runway and OI share per capital level, with assumption error analysis; research only. | — |
 | [skill-hierarchical-average-linkage](https://github.com/quantskills/skill-hierarchical-average-linkage) | 仅使用训练期因子曲线计算相关距离，通过平均连接层次聚类识别冗余结构，并从每个簇中选择真实代表因子，形成清单。 | — |
 | [skill-q6-risk-budget](https://github.com/quantskills/skill-q6-risk-budget) | CTA 组合风险预算 BUILD：等权、波动率目标、ERC 的扣费后对照（Q6） | — |
@@ -322,10 +332,13 @@ mindmap
 
 | Project | Description | Screenshot |
 |---|---|---|
+| [agent-market-style-adaptive](https://github.com/quantskills/agent-market-style-adaptive) | Coordinates small-cap, global ETF, and low-volatility strategies by market regime, with research backtests and attribution. | — |
+| [agent-cfe-ctd-irr](https://github.com/quantskills/agent-cfe-ctd-irr) | Reproduces CGB futures cheapest-to-deliver, implied repo, and net basis and examines financing and delivery-switch scenarios. | — |
 | [agent-quantspace](https://github.com/quantskills/agent-quantspace) | AI-native quantitative research framework for reusable skills, strategy workflows, backtests, and reports. | <a href="https://raw.githubusercontent.com/quantskills/quantskills/main/assets/agent-quantspace.png"><img src="assets/agent-quantspace.png" width="220"></a> |
 | [agent-for-liangshuyuan-tasks](https://github.com/quantskills/agent-for-liangshuyuan-tasks) | Multi-agent collaboration framework for Liangshuyuan tasks, organizing quantitative tools, build workflows, and task roles. | — |
 | [agent-strategy-red-team](https://github.com/quantskills/agent-strategy-red-team) | Pre-release red team for futures strategies: searches plausible counterexamples, compares with a fixed stress list at equal budget, and regression-tests fixes; research only. | — |
 | [agent-investor-roundtable](https://github.com/quantskills/agent-investor-roundtable) | A2A 投顾委员会：总管 Agent 并行派发任务给五位投资大师 Agent（巴菲特/林奇/费雪/利弗莫尔/格雷厄姆），汇总分歧并传达最终决议 | — |
+| [agent-quant-failure-triage](https://github.com/quantskills/agent-quant-failure-triage) | Triages A-share strategy or factor deterioration with layered counterfactuals, retraining criteria, and review evidence. | — |
 | [agent-market-regime-monitor](https://github.com/quantskills/agent-market-regime-monitor) | Monitors market regimes from Pandadata index breadth, volatility, and funding evidence. | <a href="https://raw.githubusercontent.com/quantskills/quantskills/main/assets/agent-market-regime-monitor.png"><img src="assets/agent-market-regime-monitor.png" width="220"></a> |
 | [agent-macro-driven-rotation](https://github.com/quantskills/agent-macro-driven-rotation) | Generates macro-driven industry-rotation research materials from clock phases, nowcasts, and valuation filters. | — |
 | [agent-intraday-rl-timing](https://github.com/quantskills/agent-intraday-rl-timing) | Research-only RL lab for intraday timing on minute bars: Gym env, baseline policies, leakage-aware walk-forward train/eval. No live orders. | — |
@@ -348,8 +361,8 @@ Governance, scaffolding and templates (incl. the quantskills nav repo).
 | Project | Description | Screenshot |
 |---|---|---|
 | [registry](https://github.com/quantskills/registry) | Public display registry for QUANTSKILLS skill-* and agent-* assets. | — |
-| [quantskills](https://github.com/quantskills/quantskills) | QuantSkills组织的全景导航 ：面向 AI Agent 的开源量化 Skill & Agent 生态，从数据、因子研究、回测验证到风险监控与交易自动化。｜Open-source Quant Skills & Agents for AI-driven research, backtesting, risk and trading automation.——Panoramic navigator for the QuantSkills organization | — |
 | [.github](https://github.com/quantskills/.github) | — | — |
+| [quantskills](https://github.com/quantskills/quantskills) | QuantSkills组织的全景导航 ：面向 AI Agent 的开源量化 Skill & Agent 生态，从数据、因子研究、回测验证到风险监控与交易自动化。｜Open-source Quant Skills & Agents for AI-driven research, backtesting, risk and trading automation.——Panoramic navigator for the QuantSkills organization | — |
 | [agent-template](https://github.com/quantskills/agent-template) | Canonical template for portable QuantSkills agent projects. | — |
 | [skill-template](https://github.com/quantskills/skill-template) | Provides a template structure and instructions for QuantSkills skill projects. | — |
 | [join](https://github.com/quantskills/join) | — | — |
